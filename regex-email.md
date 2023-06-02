@@ -5,6 +5,15 @@ Regular Expression, or as it is more commonly known Regex, is a great tool that 
 
 ## Table of Contents 
 - [User Story](#User-Story)
+- [Acceptance Criteria](#Acceptance-Criteria)
+- [Anchors](#anchors)
+- [Quantifier](#quantifiers)
+- [Grouping Constructs](#grouping-constructs)
+- [Bracket Expressions](#bracket-expressions)
+- [Character Classes](#character-classes)
+- [OR Operator](#or-operator)
+- [Flags](#flags)
+- [Character Escapes](#character-escapes)
 
 ## User Story 
 ```
