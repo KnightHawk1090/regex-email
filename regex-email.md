@@ -1,7 +1,12 @@
 # Regex Email Tutorial
 
+Regular Expression, or as it is more commonly known Regex, is a great tool that is used for extracting specific information from strings that are based on predined patterns. The characters within a regex represent a rule that helps define the desired pattern. Regex is also used to validate input fields such as usernames, passwords, and email addresses.
 
-#### User Story 
+
+## Table of Contents 
+- [User Story](#User-Story)
+
+## User Story 
 ```
 AS A web development student
 I WANT a tutorial explaining a specific regex
