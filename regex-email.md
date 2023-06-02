@@ -2,6 +2,21 @@
 
 Regular Expression, or as it is more commonly known Regex, is a great tool that is used for extracting specific information from strings that are based on predined patterns. The characters within a regex represent a rule that helps define the desired pattern. Regex is also used to validate input fields such as usernames, passwords, and email addresses.
 
+## Summary
+This tutorial will explore the Regex (regular expression) provided below. This particular Regex is designed to search for email addresses:
+
+` /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ `
+
+Each component of this Regex plays a specific role to ensure that the email address matches the desired criteria. Through this tutorial, we will break down each Regex component and describe its purpose. First, let's start with a brief description of literal and meta characters. 
+
+Literal characters are as the name describes. They will literally be what is typed in. An uppercase C will equal and upper case C and a lowercase x would equal a lowercase x. 
+
+Metacharacters are a bit more difficult. They will represent a possible sequence of characters or pattern. 
+Some examples of Metacharacters are: 
+-```.``` - any character
+-```\d``` - any numer
+-```*``` - 0 or more
+-```.*``` - wildcard
 
 ## Table of Contents 
 - [User Story](#User-Story)
