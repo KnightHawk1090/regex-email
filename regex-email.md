@@ -30,7 +30,7 @@ Some examples of Metacharacters are:
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
-## User Story 
+### User Story 
 ```
 AS A web development student
 I WANT a tutorial explaining a specific regex
@@ -38,7 +38,7 @@ SO THAT I can understand the search pattern the regex defines
 ```
 
 
-#### Acceptance Criteria
+### Acceptance Criteria
 ```
 GIVEN a regex tutorial
 WHEN I open the tutorial
@@ -50,3 +50,8 @@ THEN I find a detailed explanation of what a specific component of the regex doe
 WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
 ```
+
+### Regex Components 
+
+#### Anchors
+The Anchors are used to indicate the beginning ```^``` or end ```$```. If someone were to type ```^The```, then you would be looking for a string which matches anything that starts with ```The```. If someone were to type ```end$``` you would then be looking for a string which matches anything that ends with ```end```.  If you were to put them together as ```^The end$```, the result would be a string which has an exact match that starts and ends with ```The end```. 
